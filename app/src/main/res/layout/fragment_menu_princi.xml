@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menuPrinci">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="415dp"
+        android:layout_height="35dp"
+        android:background="#B8F3EA"
+        android:text="INICIO"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textDirection="firstStrongRtl"
+        android:textIsSelectable="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:layout_width="334dp"
+        android:layout_height="342dp"
+        android:layout_marginTop="32dp"
+        android:background="#E8F1F1"
+        app:checkedChip="@id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menú Principal"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="#008F1D1D"
+            android:textDirection="anyRtl"
+            android:textIsSelectable="false"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnSPermiso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Solicitud de Permiso"
+            android:textAlignment="viewStart"
+            android:textAllCaps="true"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnSReposo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Solicitud de Reposo"
+            android:textAlignment="viewStart"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnJAusencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Justificar Ausencia"
+            android:textAlignment="viewStart"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnSVacacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Solicitud de Vacación"
+            android:textAlignment="viewStart"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnMSolicitud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MI SOLICITUD"
+            android:textAlignment="viewStart"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnDPersonal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DATOS PERSONALES"
+            android:textAlignment="viewStart"
+            android:textSize="18sp" />
+    </com.google.android.material.chip.ChipGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

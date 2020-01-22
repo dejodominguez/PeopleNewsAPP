@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/login">
+
+    <fragment
+        android:id="@+id/login"
+        android:name="py.edu.uca.peoplenewsapp.Login"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_login_to_menuPrinci"
+            app:destination="@id/menuPrinci" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuPrinci"
+        android:name="py.edu.uca.peoplenewsapp.menuPrinci"
+        android:label="fragment_menu_princi"
+        tools:layout="@layout/fragment_menu_princi" >
+        <action
+            android:id="@+id/action_menuPrinci_to_menuPermiso"
+            app:destination="@id/menuPermiso" />
+        <action
+            android:id="@+id/action_menuPrinci_to_menuReposo"
+            app:destination="@id/menuReposo" />
+        <action
+            android:id="@+id/action_menuPrinci_to_ausencia"
+            app:destination="@id/ausencia" />
+        <action
+            android:id="@+id/action_menuPrinci_to_vacaciones"
+            app:destination="@id/vacaciones" />
+        <action
+            android:id="@+id/action_menuPrinci_to_miSolicitud"
+            app:destination="@id/miSolicitud" />
+        <action
+            android:id="@+id/action_menuPrinci_to_datosPersonales"
+            app:destination="@id/datosPersonales" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuPermiso"
+        android:name="py.edu.uca.peoplenewsapp.menuPermiso"
+        android:label="fragment_menu_permiso"
+        tools:layout="@layout/fragment_menu_permiso" >
+        <action
+            android:id="@+id/action_menuPermiso_to_solicitudPermiso"
+            app:destination="@id/solicitudPermiso" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuReposo"
+        android:name="py.edu.uca.peoplenewsapp.menuReposo"
+        android:label="fragment_menu_reposo"
+        tools:layout="@layout/fragment_menu_reposo" />
+    <fragment
+        android:id="@+id/ausencia"
+        android:name="py.edu.uca.peoplenewsapp.Ausencias"
+        android:label="fragment_ausencia"
+        tools:layout="@layout/fragment_ausencias" />
+    <fragment
+        android:id="@+id/vacaciones"
+        android:name="py.edu.uca.peoplenewsapp.Vacaciones"
+        android:label="fragment_vacaciones"
+        tools:layout="@layout/fragment_vacaciones" />
+    <fragment
+        android:id="@+id/miSolicitud"
+        android:name="py.edu.uca.peoplenewsapp.miSolicitud"
+        android:label="fragment_mi_solicitud"
+        tools:layout="@layout/fragment_mi_solicitud" />
+    <fragment
+        android:id="@+id/datosPersonales"
+        android:name="py.edu.uca.peoplenewsapp.datosPersonales"
+        android:label="fragment_datos_personales"
+        tools:layout="@layout/fragment_datos_personales" />
+    <fragment
+        android:id="@+id/solicitudPermiso"
+        android:name="py.edu.uca.peoplenewsapp.solicitudPermiso"
+        android:label="fragment_solicitud_permiso"
+        tools:layout="@layout/fragment_solicitud_permiso" />
+</navigation>
