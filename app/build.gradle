@@ -37,4 +37,10 @@ dependencies {
     implementation "android.arch.navigation:navigation-fragment-ktx:1.0.0"
     implementation "android.arch.navigation:navigation-ui-ktx:1.0.0"
     implementation 'androidx.gridlayout:gridlayout:1.0.0'
+
+    //implementation 'com.android.support.appcompat-v7:27.0.0'
+    //implementation 'com.android.constraint.constraint-layout:3.0.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+
 }

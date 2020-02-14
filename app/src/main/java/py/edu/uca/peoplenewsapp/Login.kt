@@ -24,10 +24,10 @@ class Login : Fragment() {
     }
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        btnaceptar.setOnClickListener { Toast.makeText(context, "Sesión Iniciado", Toast.LENGTH_LONG).show()
+       // btnaceptar.setOnClickListener { Toast.makeText(context, "Sesión Iniciado", Toast.LENGTH_LONG).show()
             //val action=LoginDirections.actionLoginTomenuPrinci
             findNavController().navigate(R.id.menuPrinci)
-        }
+        //}
 
         }
 

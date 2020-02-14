@@ -15,7 +15,7 @@ import javax.security.auth.login.LoginException
 /**
  * A simple [Fragment] subclass.
  */
-class menuPrinci : Fragment() {
+class MenuPrinci : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

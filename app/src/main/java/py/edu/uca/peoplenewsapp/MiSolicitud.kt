@@ -10,7 +10,7 @@ import android.view.ViewGroup
 /**
  * A simple [Fragment] subclass.
  */
-class miSolicitud : Fragment() {
+class MiSolicitud : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

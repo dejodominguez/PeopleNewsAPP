@@ -13,7 +13,7 @@ import kotlinx.android.synthetic.main.fragment_menu_permiso.*
 /**
  * A simple [Fragment] subclass.
  */
-class menuPermiso : Fragment() {
+class MenuPermiso : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
