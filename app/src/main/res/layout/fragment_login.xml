@@ -3,10 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/frameLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login">
+    tools:context=".Login"
+    android:background="#053754">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -14,7 +14,6 @@
         android:background="@drawable/gradient_bg">
 
         <LinearLayout
-            android:id="@+id/email_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -116,7 +115,6 @@
                         android:orientation="vertical">
 
                         <EditText
-                            android:id="@+id/usuario"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_marginLeft="20dp"
@@ -139,7 +137,6 @@
                         android:orientation="vertical">
 
                         <EditText
-                            android:id="@+id/password"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_marginLeft="20dp"
@@ -166,37 +163,36 @@
                 style="?android:textAppearanceSmall"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:layout_marginTop="16dp"
-                android:text="Login"
-                android:textStyle="bold"
-                android:textColor="#fff"
                 android:layout_marginLeft="20dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/blue_button_bg"/>
+                android:background="@drawable/blue_button_bg"
+                android:text="Login"
+                android:textColor="#fff"
+                android:textStyle="bold" />
 
             <!--Olvido su contrase-->
             <LinearLayout
-                android:orientation="horizontal"
-                android:layout_margin="40dp"
-                android:layout_gravity="center"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="40dp"
+                android:orientation="horizontal">
 
                 <TextView
-                    android:text="¿Olvido su contraseña?..."
-                    android:textSize="12dp"
-                    android:textColor="#80ffffff"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:text="¿Olvido su contraseña?..."
+                    android:textColor="#80ffffff"
+                    android:textSize="12dp" />
 
                 <TextView
-                    android:id="@+id/txtLogin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:paddingLeft="5dp"
                     android:text="Clickee aqui."
-                    android:textSize="12dp"
                     android:textColor="#ffffff"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:textSize="12dp" />
 
             </LinearLayout>
 

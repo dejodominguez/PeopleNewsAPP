@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.navigation.findNavController
 import androidx.navigation.fragment.findNavController
 import kotlinx.android.synthetic.main.fragment_login.*
 
@@ -24,12 +25,12 @@ class Login : Fragment() {
     }
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-       // btnaceptar.setOnClickListener { Toast.makeText(context, "Sesión Iniciado", Toast.LENGTH_LONG).show()
-            //val action=LoginDirections.actionLoginTomenuPrinci
-            findNavController().navigate(R.id.menuPrinci)
-        //}
-
+        btnLogin.setOnClickListener { Toast.makeText(context, "Sesión Iniciado", Toast.LENGTH_LONG).show()
+        //val action=LoginDirections.actionLoginTomenuPrinci
+        findNavController().navigate(R.id.action_login_to_mainActivityMenu)
         }
+
+    }
 
 
 }

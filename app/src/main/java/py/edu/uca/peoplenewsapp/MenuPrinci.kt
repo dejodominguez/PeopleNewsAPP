@@ -34,7 +34,7 @@ class MenuPrinci : Fragment() {
             findNavController().navigate(R.id.menuReposo)
         }
         btnJAusencia.setOnClickListener { Toast.makeText(context, "Cargar ausencia", Toast.LENGTH_LONG).show()
-            findNavController().navigate(R.id.ausencia)
+            findNavController().navigate(R.id.ausencias)
         }
         btnSVacacion.setOnClickListener { Toast.makeText(context, "Cargar solicitud de vaciones", Toast.LENGTH_LONG).show()
             findNavController().navigate(R.id.vacaciones)
@@ -45,7 +45,7 @@ class MenuPrinci : Fragment() {
         btnDPersonal.setOnClickListener { Toast.makeText(context, "Cargar solicitud de vaciones", Toast.LENGTH_LONG).show()
             findNavController().navigate(R.id.datosPersonales)
         }
-        }
+    }
 
 
 

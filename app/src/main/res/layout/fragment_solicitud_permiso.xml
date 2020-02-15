@@ -2,7 +2,6 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/frameLayout8"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SolicitudPermiso">
@@ -34,7 +33,6 @@
         tools:ignore="MissingConstraints">
 
         <TextView
-            android:id="@+id/textView19"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Tipo de permiso"
@@ -42,7 +40,6 @@
             android:textStyle="italic" />
 
         <EditText
-            android:id="@+id/txtTPermiso"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -50,7 +47,6 @@
             android:text="TIPO PERMISO" />
 
         <TextView
-            android:id="@+id/textView20"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Fecha y Hora de salida"
@@ -63,7 +59,6 @@
             android:orientation="horizontal">
 
             <EditText
-                android:id="@+id/txtFSalida"
                 android:layout_width="172dp"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -71,7 +66,6 @@
                 android:text="0000/00/00" />
 
             <EditText
-                android:id="@+id/txtHSalida"
                 android:layout_width="152dp"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -80,7 +74,6 @@
         </LinearLayout>
 
         <TextView
-            android:id="@+id/textView21"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Fecha y Hora de regreso"
@@ -93,7 +86,6 @@
             android:orientation="horizontal">
 
             <EditText
-                android:id="@+id/txtFRegreso"
                 android:layout_width="173dp"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -101,7 +93,6 @@
                 android:text="0000/00/00" />
 
             <EditText
-                android:id="@+id/txtHRegreso"
                 android:layout_width="151dp"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -110,7 +101,6 @@
         </LinearLayout>
 
         <TextView
-            android:id="@+id/textView22"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Motivo de Permiso"
@@ -118,20 +108,17 @@
             android:textStyle="italic" />
 
         <EditText
-            android:id="@+id/editText10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName" />
 
         <View
-            android:id="@+id/divider4"
             android:layout_width="match_parent"
             android:layout_height="22dp"
             android:background="?android:attr/listDivider" />
 
         <Button
-            android:id="@+id/button4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="90dp"

@@ -28,6 +28,5 @@ class MenuPermiso : Fragment() {
             findNavController().navigate(R.id.solicitudPermiso)
         }
 
-
     }
 }

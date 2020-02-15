@@ -2,7 +2,6 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/frameLayout3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MenuReposo">
@@ -35,7 +34,6 @@
         tools:ignore="MissingConstraints">
 
         <TextView
-            android:id="@+id/textView8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Seleccione el tipo de reposo"
@@ -44,7 +42,6 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="POR MATERNIDAD"
@@ -52,7 +49,6 @@
             android:textSize="18sp" />
 
         <Button
-            android:id="@+id/btnPaternidad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="POR PATERNIDAD"
@@ -60,7 +56,6 @@
             android:textSize="18sp" />
 
         <Button
-            android:id="@+id/btnPOperatorio"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="POST OPERATORIO"
@@ -68,7 +63,6 @@
             android:textSize="18sp" />
 
         <Button
-            android:id="@+id/btnEnfermedad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="POR ENFERMEDAD"
@@ -76,7 +70,6 @@
             android:textSize="18sp" />
 
         <Button
-            android:id="@+id/btnAccidente"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="POR ACCIDENTE"

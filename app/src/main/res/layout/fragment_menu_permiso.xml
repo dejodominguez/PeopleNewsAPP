@@ -29,7 +29,6 @@
         tools:ignore="MissingConstraints">
 
         <TextView
-            android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#008F1D1D"
@@ -47,7 +46,6 @@
             android:textSize="18sp" />
 
         <Button
-            android:id="@+id/btnMatrimonio"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="MATRIMONIO"
@@ -55,7 +53,6 @@
             android:textSize="18sp" />
 
         <Button
-            android:id="@+id/btnDuelo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="DUELO"
@@ -63,7 +60,6 @@
             android:textSize="18sp" />
 
         <Button
-            android:id="@+id/btneExamen"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="EXAMEN"
@@ -71,7 +67,6 @@
             android:textSize="18sp" />
 
         <Button
-            android:id="@+id/btnDLibre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="DIA LIBRE"
@@ -79,7 +74,6 @@
             android:textSize="18sp" />
 
         <Button
-            android:id="@+id/btnCMedica"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="CONSULTA MEDICA"
@@ -87,7 +81,6 @@
             android:textSize="18sp" />
 
         <Button
-            android:id="@+id/btnCHora"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="COMPENSACION HORAS"
@@ -95,7 +88,6 @@
             android:textSize="18sp" />
 
         <Button
-            android:id="@+id/btnTPersonal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TRAMITE PERSONALES"
