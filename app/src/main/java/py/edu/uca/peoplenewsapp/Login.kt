@@ -25,7 +25,7 @@ class Login : Fragment() {
     }
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        btnLogin.setOnClickListener { Toast.makeText(context, "Sesión Iniciado", Toast.LENGTH_LONG).show()
+        btnLogin2.setOnClickListener { Toast.makeText(context, "Sesión Iniciado", Toast.LENGTH_LONG).show()
         //val action=LoginDirections.actionLoginTomenuPrinci
         findNavController().navigate(R.id.action_login_to_mainActivityMenu)
         }

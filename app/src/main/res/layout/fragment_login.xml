@@ -159,7 +159,7 @@
 
             <!--Boton-->
             <Button
-                android:id="@+id/btnLogin"
+                android:id="@+id/btnLogin2"
                 style="?android:textAppearanceSmall"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
