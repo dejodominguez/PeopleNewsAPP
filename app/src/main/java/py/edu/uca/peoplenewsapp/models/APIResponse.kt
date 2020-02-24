@@ -1,8 +1,9 @@
 package py.edu.uca.peoplenewsapp.models
 
 class APIResponse {
-    var isError:Boolean=false
-    var uid:String?=null
-    var errormsg:String?=null
-    var usuario:Usuario?=null
+    //var idRol:IdRol?=null
+    //var idUsuario:Int?=null
+    var idLogin:Int?= null
+    var password:String?= null
+    var usuario:String?=null
 }
